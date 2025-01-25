@@ -1,0 +1,131 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Light blue tint */
+    color: #222; /* Slightly darker gray for better contrast */
+    line-height: 1.6;
+}
+
+header {
+    background-color: #1a237e; /* Deep indigo */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    background-color: #3949ab; /* Lighter indigo */
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffeb3b; /* Yellow */
+    background-color: #283593; /* Darker indigo */
+    border-radius: 5px;
+}
+
+main {
+    padding: 2rem;
+}
+
+.complain-form {
+    background-color: #ffffff;
+    border: 1px solid #d1d9ff; /* Light indigo border */
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.complain-form h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #1a237e; /* Deep indigo */
+}
+
+.complain-form label {
+    display: block;
+    margin: 0.5rem 0 0.2rem;
+    font-weight: bold;
+}
+
+.complain-form input, 
+.complain-form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #d1d9ff;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.complain-form button {
+    width: 100%;
+    padding: 0.8rem;
+    border: none;
+    background-color: #3949ab; /* Lighter indigo */
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.complain-form button:hover {
+    background-color: #283593; /* Darker indigo */
+}
+
+footer {
+    background-color: #1a237e; /* Deep indigo */
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    margin-top: auto;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer a {
+    color: #ffeb3b; /* Yellow */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #ff9800; /* Orange */
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .complain-form {
+        padding: 1.5rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}

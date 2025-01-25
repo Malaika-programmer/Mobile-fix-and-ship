@@ -1,0 +1,119 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fa; /* Lighter background for a cleaner look */
+    color: #444; /* Slightly lighter text for contrast */
+    line-height: 1.6;
+}
+
+header {
+    background-color: #0056b3; /* Darker blue for a fresh, modern look */
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.box {
+    background-color: #fff;
+    padding: 40px 35px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05); /* Soft shadow for a floating effect */
+    color: #333;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.box h2 {
+    margin-bottom: 30px;
+    font-size: 1.8rem;
+    color: #0056b3;
+    font-weight: 600;
+}
+
+.box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.box label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.box input[type="text"],
+.box input[type="password"] {
+    border: 2px solid #ccc;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 1rem;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+    border-color: #0056b3;
+    outline: none;
+}
+
+input::placeholder {
+    color: #bbb;
+}
+
+.box button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s, transform 0.2s ease-in-out;
+}
+
+.box button:hover {
+    background-color: #003d80;
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+.box p {
+    margin-top: 20px;
+}
+
+.box p a {
+    color: #0056b3;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.box p a:hover {
+    color: #003d80;
+    text-decoration: underline;
+}
+
+.login-icon {
+    width: 80px;
+    height: auto;
+    margin-bottom: 20px;
+}
