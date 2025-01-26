@@ -13,24 +13,7 @@ header {
     padding: 1rem;
     text-align: center;
 }
-/* nav ul {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-}
-nav ul li {
-    display: inline;
-}
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-}
-nav ul li a:hover {
-    text-decoration: underline;
-} */
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -128,6 +111,7 @@ nav ul li a:hover {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1.5rem;
+    justify-content: center;
 }
 .menu-item {
     background: linear-gradient(135deg, #f9f9f9, #ffffff);
